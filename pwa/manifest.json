@@ -19,7 +19,31 @@
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#3367D6"
+    "theme_color": "#3367D6",
+    "shortcuts": [
+        {
+            "name": "Applicazioni di Algorithm-net",
+            "short_name": "Applicazioni",
+            "description": "Indice delle applicazioni di Algorithm-net",
+            "url": "/applicazioni/index.html",
+            "icons": [{
+                "src": "/image/icon192.png",
+                "type": "image/png",
+                "sizes": "192x192"
+            }]
+    },
+        {
+            "name": "file e testi",
+            "short_name": "Articoli",
+            "description": "indice dei file e die testi di Algorithm-net",
+            "url": "/articoli/index.html",
+            "icons": [{
+                "src": "/images/icon192.png",
+                "type": "image/png",
+                "sizes": "192x192"
+            }]
+    }
+  ]
     
 
 }
