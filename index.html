@@ -24,19 +24,21 @@
 <body>
     <h1>Benvenuto nella home di algorithm-net.com</h1>
     <img src="/images/indice.jpg" alt=""><br>
+    <div id="lista">
     <ul>
         <li><a href="/articoli/index.html">
         indice articoli e file</a></li>
         <li><a href="applicazioni/">indice applicazioni</a></li>
     
     </ul>
+        </div>
     
 <script>
 var para = document.createElement("p");
 var node = document.createTextNode("This is new.");
 para.appendChild(node);
 
-var element = document.getElementById("div1");
+var element = document.getElementById("lista");
 element.appendChild(para);
 </script>
 
