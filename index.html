@@ -34,12 +34,15 @@
         </div>
     
 <script>
-var para = document.createElement("p");
+if (window.matchMedia('(display-mode: standalone)').matches) {  
+ var para = document.createElement("p");
 var node = document.createTextNode("This is new.");
 para.appendChild(node);
 
 var element = document.getElementById("lista");
 element.appendChild(para);
+}  
+
 </script>
 
     <!--
