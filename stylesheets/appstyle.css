@@ -20,6 +20,10 @@ p {
     box-sizing: border-box;
 
 }
+.installa {
+  visibility: hidden;
+  
+}
 
 body {
     background: green;
