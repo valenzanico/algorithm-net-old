@@ -21,10 +21,16 @@
 if (window.matchMedia('(display-mode: standalone)').matches) {  
  var link = document.createElement("link");
  link.rel = "stylesheet";
- link.href = "/stylesheets/stile.css";
+ link.href = "/stylesheets/appstyle.css";
  document.head.appendChild(link);
 
-}  
+} else {
+ var link = document.createElement("link");
+ link.rel = "stylesheet";
+ link.href = "/stylesheets/sitestyle.css";
+ document.head.appendChild(link);
+} 
+
 
 </script>
 
