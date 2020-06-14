@@ -17,7 +17,16 @@
     <meta name="description" content="A technology site">
     <meta name="application-name" content="algorithm-net">
     <meta name="author" content="eagle">
-    <link rel="stylesheet" href="/stylesheets/stile.css">
+	<script>
+if (window.matchMedia('(display-mode: standalone)').matches) {  
+ var link = document.createElement("link");
+ link.rel = "stylesheet";
+ link.href = "/stylesheets/stile.css";
+ document.head.appendChild(link);
+
+}  
+
+</script>
 
 </head>
 
@@ -33,17 +42,7 @@
     </ul>
         </div>
     
-<script>
-if (window.matchMedia('(display-mode: standalone)').matches) {  
- var para = document.createElement("p");
-var node = document.createTextNode("This is new.");
-para.appendChild(node);
 
-var element = document.getElementById("lista");
-element.appendChild(para);
-}  
-
-</script>
 
     <!--
     <p>instlla algorithm-net</p>
