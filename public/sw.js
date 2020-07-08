@@ -1,4 +1,4 @@
-var cacheName = 'algorithm-net';
+var cacheName = 'Algorithm-net';
 var filesToCache = [
 '/',
 '/index.html',
