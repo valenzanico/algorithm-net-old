@@ -13,6 +13,20 @@
     <script type="module" src="/pwa/start-sw.js"></script>
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="/stylesheets/stile.css">
+    <script>
+        if (window.matchMedia('(display-mode: standalone)').matches) {
+          var link = document.createElement("link");
+          link.rel = "stylesheet";
+          link.href = "/stylesheets/appstyle.css";
+          document.head.appendChild(link);
+    
+        } else {
+          var link = document.createElement("link");
+          link.rel = "stylesheet";
+          link.href = "/stylesheets/sitestyle.css";
+          document.head.appendChild(link);
+        }
+      </script>
 
 </head>
 
