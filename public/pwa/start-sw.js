@@ -3,7 +3,7 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js');
   });
 };
-/* self.addEventListener('install', (event) => {
+self.addEventListener('install', (event) => {
   console.log('👷', 'install', event);
   self.skipWaiting();
 });
@@ -54,4 +54,3 @@ butInstall.addEventListener('click', () => {
 window.addEventListener('appinstalled', (event) => {
   console.log('👍', 'appinstalled', event);
 });
- */

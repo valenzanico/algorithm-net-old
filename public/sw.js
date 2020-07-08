@@ -4,7 +4,7 @@ var filesToCache = [
 '/index.html',
 '/articoli/index.html',
 '/applicazioni/index.html',
-'/register-sw.js',
+'/start-sw.js',
 '/stylesheets/appstyle.css',
 '/stylesheets/sitestyle.css',
 '/manifest.json'
