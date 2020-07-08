@@ -1,6 +1,5 @@
 var cacheName = 'Algorithm-net';
 var filesToCache = [
-'/',
 '/index.html',
 '/articoli/index.html',
 '/applicazioni/index.html',
