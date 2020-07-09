@@ -54,3 +54,4 @@ butInstall.addEventListener('click', () => {
 window.addEventListener('appinstalled', (event) => {
   console.log('👍', 'appinstalled', event);
 });
+ 
