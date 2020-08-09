@@ -1,4 +1,5 @@
 from flask import Flask, render_template, redirect, url_for, request
+from flask_cors import cross_origin
 
 app = Flask(__name__)
 from datetime import datetime
@@ -12,6 +13,7 @@ def index_p():
     return render_template('index.html')
 
 @app.route('/time', methods = ['POST', 'GET'])
+@cross_origin()
 def apitime():
     return api_j
 
